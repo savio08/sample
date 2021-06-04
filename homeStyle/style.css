@@ -1,0 +1,205 @@
+/* global style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    padding: 0 5rem;
+    margin: 0;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 0.5rem 0 0 0;
+}
+
+.navbar .navigation1,
+.navbar .navigation2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem 1.4rem;
+}
+
+.navbar .navigation1:hover {
+    border: 2px solid #ffffff;
+    background-color: white;
+    color: #ff3992;
+    border-radius: 2rem;
+}
+
+.navbar .navigation2:hover {
+    border: 2px solid #ffffff;
+    background-color: white;
+    color: #ce2eff;
+    border-radius: 2rem;
+}
+
+.navbar .far {
+    color: #ce2eff;
+}
+
+.container-fluid .logo {
+    font-family: 'Limelight', cursive;
+    font-size: 2.3rem;
+    padding: 0;
+    padding-left: 0.2rem;
+}
+
+
+/* main style */
+
+.containerbg {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.containerbg::before {
+    content: '';
+    position: absolute;
+    width: 1150px;
+    height: 1530px;
+    background-image: url(/images/background.svg);
+    background-size: cover;
+    transform: translate(100%, -10%);
+    right: calc(23rem + 49vw);
+    z-index: -1;
+    transition: 1.8s ease-in-out;
+}
+
+.navbar-nav .nav-item {
+    padding: 0.1rem 1rem;
+    margin: auto;
+}
+
+.container-fluid {
+    padding: 0 2rem;
+}
+
+.main-text {
+    padding: 0;
+}
+
+.main-text h1,
+.main-text .subtitle {
+    text-align: left;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: calc(2.6rem + 2vw);
+    padding: 0 0 2rem 0;
+}
+
+.main-text .subtitle {
+    font-size: 3rem;
+    padding: 0;
+}
+
+.main-img {
+    width: 90%;
+    float: right;
+}
+
+.side-2 {
+    padding: 0;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 0 0 0 1rem;
+}
+
+
+/* coloring letters */
+
+.fancy1 {
+    font-family: 'Monoton', cursive;
+    font-size: calc(3.5rem + 2vw);
+}
+
+.fancy2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+.t1 {
+    color: #ff8080;
+}
+
+.t2 {
+    color: #ffb962;
+}
+
+.t3 {
+    color: #29B1FE;
+}
+
+.t4 {
+    color: #80ff67;
+}
+
+.t5 {
+    color: #56f1ff;
+}
+
+.t6 {
+    color: #ff5dff;
+}
+
+.t7 {
+    color: #7b64ff;
+}
+
+.t8 {
+    color: #619eff;
+}
+
+.t9 {
+    color: #56F1FF;
+}
+
+.t10 {
+    color: #79ff5e;
+}
+
+.t11 {
+    color: #56F1FF;
+}
+
+.t12 {
+    color: #ffb356;
+}
+
+.t13 {
+    color: #ff5a5a;
+}
+
+.t14 {
+    color: #775fff;
+}
+
+.f1 {
+    color: #ce2eff;
+}
+
+.f2 {
+    color: #ff3992;
+}
+
+.f0 {
+    color: white;
+}
+
+
+/* about css */

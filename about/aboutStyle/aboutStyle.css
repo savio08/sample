@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    height: 90vh;
+}
+
+.about-header {
+    font-family: 'Original Surfer', cursive;
+    display: flex;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    justify-content: center;
+}
+
+.about-section {
+    height: 90vh;
+    display: flex;
+    padding: 1.7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText {
+    flex: 1 1 30rem;
+    font-family: 'Redressed', cursive;
+    font-size: calc(1.25rem + 1vw);
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 2rem 0;
+    line-height: calc(1.2rem + 2vw);
+}
+
+.aboutImage {
+    width: 45%;
+    flex: 1 1 30rem;
+}
